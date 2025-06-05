@@ -1,0 +1,59 @@
+.loja {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 15px 50px;
+}
+
+.loja-item {
+    color: #145038;
+    width: 100%;
+    max-width: 280px;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.loja-item:hover {
+    transform: translateY(-5px);
+}
+
+.loja-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.loja-title {
+    font-size: 1.2rem;
+    margin: 0.75rem 0 0.25rem;
+}
+
+.loja-description {
+    font-size: 0.9rem;
+    margin: 0 1rem 0.5rem;
+    color: #555;
+}
+
+.loja-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.loja-button {
+    background-color: #145038;
+    color: white;
+    border: none;
+    border-radius: 0 0 16px 16px;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.loja-button:hover {
+    background-color: #0c3927;
+}

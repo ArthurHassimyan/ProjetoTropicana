@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 120px;
+    background-image: url("../img/Fundo-site-Palha.png");
+    font-family: "Segoe UI Semibold", sans-serif;
+}

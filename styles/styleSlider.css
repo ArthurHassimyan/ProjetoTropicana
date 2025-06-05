@@ -1,0 +1,38 @@
+.carrosel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: url("../img/backgroundNav.png");
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.slide-buy {
+    margin: 20px 0;
+    background-color: #145038;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.slide-buy:hover {
+    background-color: #0c3927;
+}

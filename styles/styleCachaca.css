@@ -1,0 +1,33 @@
+.cachaca-box {
+    position: relative;
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.cachaca-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.cachaca-texto {
+    margin: 0 20%;
+    font-size: 1.2rem;
+}
+
+.cachaca-texto h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cachaca-texto p {
+    margin-bottom: 20px;
+}
+
+.cachaca-texto-margin {
+    margin-bottom: 50px;
+}
